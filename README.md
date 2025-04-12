@@ -1,23 +1,40 @@
-# Projeto de Cadastro com PHP e MySQL
+# 📝 Projeto de Cadastro com PHP e MySQL
 
-Este é um pequeno sistema de cadastro de usuários usando PHP e banco de dados MySQL.
+Este é um pequeno sistema de cadastro de usuários utilizando **HTML, PHP e MySQL**, desenvolvido para fins de aprendizado e prática de back-end.
 
-## Funcionalidades
-- Formulário para inserir nome e email
-- Dados são salvos no banco de dados
-- Página que lista os cadastros
+## 🚀 Funcionalidades
 
-## Requisitos
-- PHP instalado (ex: XAMPP)
-- Banco de dados MySQL com a tabela `usuarios`
+- Formulário para inserção de nome e e-mail
+- Salvamento dos dados em um banco de dados MySQL
+- Página para listagem dos cadastros registrados
 
-## Estrutura do Banco de Dados
+---
 
-```sql
-CREATE DATABASE cadastro;
+## 🛠️ Tecnologias Utilizadas
 
-CREATE TABLE usuarios (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  nome VARCHAR(100),
-  email VARCHAR(100)
-);
+- HTML5
+- PHP 8.x
+- MySQL
+- XAMPP (ou outro ambiente com Apache + MySQL)
+
+---
+
+## 📂 Estrutura de Arquivos
+
+``` bash
+projeto/
+├── form.html              # Formulário de cadastro
+├── salvar.php             # Lógica para salvar no banco
+├── mostrar_cadastros.php  # Listagem dos cadastros
+```
+
+## 🧑‍💻 Autor
+
+**Nicholas Daniel Augusto**  
+Estudante de Engenharia de Software  
+Entusiasta de PHP, Kotlin e Python
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/nicholas-daniel-augusto/)
+- 💻 [GitHub](https://github.com/nicholasagst)
+- 📧 Email: nicholasagst@outlook.com
+

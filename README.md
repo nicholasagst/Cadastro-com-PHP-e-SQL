@@ -23,16 +23,16 @@ Este é um pequeno sistema de cadastro de usuários utilizando **HTML, PHP e MyS
 
 ``` bash
 projeto/
-├── form.html              # Formulário de cadastro
-├── salvar.php             # Lógica para salvar no banco
-├── mostrar_cadastros.php  # Listagem dos cadastros
+├── paginade_de_cadastros.html         # Formulário de cadastro
+├── salvar_cadastros.php               # Lógica para salvar no banco
+├── mostrar_cadastros.php              # Listagem dos cadastros
 ```
 
 ## 🧑‍💻 Autor
 
 **Nicholas Daniel Augusto**  
-Estudante de Engenharia de Software  
-Entusiasta de PHP, Kotlin e Python
+Estudante de Engenharia de Software.
+Entusiasta de PHP, Kotlin e Python.
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/nicholas-daniel-augusto/)
 - 💻 [GitHub](https://github.com/nicholasagst)

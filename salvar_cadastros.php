@@ -12,8 +12,8 @@ if ($conexao->connect_error) {
 $sql = "INSERT INTO usuarios (nome, email) VALUES ('$nome', '$email')";
 
 if($conexao->query($sql) === TRUE) {
-    echo "Usuário cadastrado com sucesso!<br>";
-    echo "<a href='mostrar_cadastros.php'>Ver usuários cadastrados<?a>";
+    echo "<h1>Usuário cadastrado com sucesso!<br></h1>";
+    echo "<a href='mostrar_cadastros.php'>Ver usuários cadastrados</a>";
 } else {
     echo "Erro: " . $conexao->error;
 }

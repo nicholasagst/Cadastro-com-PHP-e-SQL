@@ -10,11 +10,11 @@ $sql = "SELECT * FROM usuarios";
 $result = $conexao->query($sql);
 
 if ($result->num_rows > 0){
-    echo "<h2> Usuários Cadastrados:<h2>";
+    echo "<h2 style='text-align: center;'> Usuários Cadastrados:<h2>";
     echo "<ul>";
 
     while ($row = $result->fetch_assoc()) {
-        echo "<li><strong>Nome:</strong> " . $row["nome"] . " | <strong>Email:</strong> " . $row["email"] . "</li>";
+        echo "<li style='text-align: center;'><strong>Nome:</strong> " . $row["nome"] . " | <strong>Email:</strong> " . $row["email"] . "</li>";
     }
 
     echo "</ul>";
